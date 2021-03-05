@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <h3>Contact me:</h3>
+  <address>
+    Write to me at <a href="mailto:anyelo.flores@usach.cl">📧 anyelo.flores@usach.cl</a>
+    <br>Give me a ring to <a href="tel:+56944592642">📲 (569) 4459-2642</a>
+    <br>Visit me at 🏡 Yungay St. 2753
+    <br>Santiago, Región Metropolitana
+    <br>Chile
+  </address>
+  <hr size="1" noshade>
+  <form action="mailto:anyelo.flores@usach.cl" autocomplete="on" method="post" enctype="text/plain">
+    <table cellspacing="10">
+      <tr>
+        <td>
+          <label for="name">Your Name:</label>
+        </td>
+        <td>
+          <input type="text" name="name" placeholder="write your name" value="">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="email">E-mail</label>
+        </td>
+        <td>
+          <input type="email" name="email" placeholder="e.g.: yourmail@domain.com">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="phone">Phone Number:</label>
+        </td>
+        <td>
+          <input type="tel" name="phone" placeholder="e.g.: +569 9999 9999" value="">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="picture">Your Picture:</label>
+        </td>
+        <td>
+          <input accept=".png" type="file" name="picture" value="">
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="checkbox" name="newsletter" value="yes">
+          <label for="newsletter">I want to receive your newsletter</label>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <label for="msg">Your message:</label>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <textarea name="msg" rows="8" cols="44"></textarea>
+        </td>
+      </tr>
+      <!--tr>
+      <td>
+      <label for="mood">How do you feel today?</label>
+    </td>
+    <td>
+    <input type="range" name="mood" list="moodList" value="">
+    <datalist class="moodList">
+    <option value="0">🙁</option>
+    <option value="50">🙁</option>
+    <option value="100">😊</option>
+  </datalist>
+</td>
+</tr-->
+<tr>
+  <td colspan="2" align="right">
+    <input type="submit" name="submit" value="Sumbmit">
+  </td>
+</tr>
+</table>
+</form>
+</body>
+
+</html>
